@@ -43,7 +43,7 @@ public class ConfigUtils {
 		    ((JLabel)channelIDCombo.getRenderer()).setHorizontalAlignment(SwingConstants.RIGHT);
 		    channelIDCombo.addItem("頻道ID:");
 		    channelIDCombo.addItem("用戶ID:");
-		    JLabel refreshFreqLabel = new JLabel("更新頻率(次/毫秒):", SwingConstants.RIGHT);
+		    JLabel refreshFreqLabel = new JLabel("更新頻率(毫秒/次):", SwingConstants.RIGHT);
 		    
 		    JTextField appidField = new JTextField(appid, 35);
 		    JTextField channelIDField = new JTextField(channelID, 35);
