@@ -32,8 +32,8 @@ public class Main {
 	static SystemTray tray = SystemTray.getSystemTray();
 	static TrayIcon trayIcon = null;
 	public static JLabel headLabel;
-	public static JLabel num;
-	public static JLabel channelName;
+	public static JLabel num = new JLabel();
+	public static JLabel channelName = new JLabel();
 	
 	public static void main(String[] args) throws IOException, AWTException {
 		Toolkit kit = Toolkit.getDefaultToolkit();
@@ -43,7 +43,7 @@ public class Main {
 		mainFrame.setType(Type.UTILITY);
 		mainFrame.setTitle("YouTube訂閱數顯示器");
 		mainFrame.setIconImage(Image.getIconImage().getImage());
-		mainFrame.setLocation(49*sc.width/45-290,1*sc.height/9);
+		mainFrame.setLocation(39*sc.width/45-290,1*sc.height/9);
 		mainFrame.setUndecorated(true);
 		mainFrame.setAlwaysOnTop(true);
 		mainFrame.setBackground(new Color(0,0,0,0));
