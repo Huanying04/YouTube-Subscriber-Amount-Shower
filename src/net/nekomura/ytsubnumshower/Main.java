@@ -39,7 +39,7 @@ public class Main {
 		Toolkit kit = Toolkit.getDefaultToolkit();
 		Dimension sc = kit.getScreenSize();
 		JFrame mainFrame = new JFrame();
-		mainFrame.setSize(290,185);
+		mainFrame.setSize(290,155);
 		mainFrame.setType(Type.UTILITY);
 		mainFrame.setTitle("YouTube訂閱數顯示器");
 		mainFrame.setIconImage(Image.getIconImage().getImage());
